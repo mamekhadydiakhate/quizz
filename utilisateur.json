@@ -1,0 +1,17 @@
+[
+    {
+        "prenom":"mame khady",
+        "nom":"diakhate",
+        "login":"ddiatou1@gmail.com",
+        "password":"diarra12",
+        "confir password":"diarra12"
+    }
+        ,
+    {
+        "prenom":"fatou",
+        "nom":"sylla",
+        "login":"mamekhadydiakhate@gmail.com",
+        "password":"fatou12",
+        "confir password":"fatou12"
+    }
+]
