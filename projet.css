@@ -1,0 +1,218 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.header
+{
+    background-color: #042425;
+    height: 70px;
+
+}
+.logo
+{
+    background-image: url(projet/logo-QuizzSA.png);
+    background-repeat: no-repeat;
+    background-size: 40px;
+    height: 70px;
+
+}
+.texte-header
+{
+    color: white;
+    margin-top: -75px;
+    margin-left: 500px;
+}
+.content
+{
+    background-image: url(projet/img-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 555px;
+}
+.container
+{
+    width: 35%;
+    height: 300px;
+    background-color: white;
+    margin-top: -30%;
+    margin-left: 30%;
+}
+.container-header
+{
+    background-color: #51bfd0;
+    height: 60px;
+}
+.titre
+{
+    color: white;
+    padding: 1px;
+    font-size: 17px;
+    margin-left: 30%;
+
+    
+}
+.form-control
+{
+    width: 80%;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid grey;
+    margin-left: 10%;
+    margin-top: 15px;
+}
+.input-form
+{
+    height: 60px;
+    margin: 5px 25px;
+}
+.error-form
+{
+    color: red;
+    width: 100%;
+    font-size: 15px;
+    font-weight: bold;
+}
+.icon-form
+{
+    
+    height: 35px;
+    width: 30px;
+    left: 80%;
+    background-size: 25px;
+    top: 50px;
+    position: relative;
+
+
+}
+.icon-form-login
+{
+    background-image: url(projet/icone-user.png);
+    background-repeat: no-repeat;
+    margin-top: 10px;
+}
+.icon-form-pwd
+{
+    background-image: url(projet/icone-password.png);
+    background-repeat: no-repeat;
+}
+.plan
+{
+    width: 95%;
+    height: 500px;
+    background-color: #efe7ea;
+    top: 5%;
+    left: 2.5%;
+    position: relative;
+
+}
+.plan-header
+{
+    background-color: #51bfd0;
+    height: 70px;
+}
+.deconnexion
+{
+    margin-top: -50px;
+    float: right;
+    margin-right: 15px;
+}
+.deconnexion input{
+    background-color: #3addd6;
+    color: white;
+    height: 40px;
+    width: 130px;
+}
+.menu1
+ {
+    background-color: white;
+    height: 300px;
+    width: 30%;
+    margin-top: 50px;
+    margin-left: 10px;
+ }
+ .menu1-header
+ {
+     background-color:#3addd6 ;
+     height:120px ;
+ }
+ .icon1
+ {
+     background-image: url(projet/img5.jpg);
+     height: 120px;
+     background-repeat: no-repeat;
+     background-size: 95px;
+     margin-left: 10%;
+
+
+ }
+ h3
+ {
+    color: white;
+    margin-left: 120px;
+ }
+ .menu21
+ {
+     background-color:white;
+     height: 400px;
+     margin-right: 10px;
+     margin-top: 10px;
+     width: 50%;
+     float: right;
+ }
+ .menu2
+ {
+    background-color: white;
+    height: 400px;
+    width: 60%;
+    margin-top: -330px;
+    margin-right: 100px;
+    float: right;
+ }
+ .suiv{
+    float: right;
+    margin-top: 370px;
+    margin-right: 50px;
+    background-color: #3addd6;
+    color: white;
+ }
+ h4
+ {
+    color: #818181;
+    margin-left: 10px;
+ }
+ .joueurs
+ {
+    width: 20%;
+    height: 320px;
+    border: 1px solid #3addd6;
+    margin: 25px;
+ }
+ .prenom
+ {
+     float: left;
+ }
+ .nom
+ {
+     float: left;
+     margin-left: 200px;
+ }
+ h3{
+     color: black;
+ }
+ .score
+ {
+    float: left;
+    margin-left: 200px;
+ }
+ .menu2-input
+ {
+     margin-left: 20px;
+ }
+ .img{
+     float:right;
+ }
+ .admi-prenom
+ {
+     background-image: url(projet/img5.jpg);
+     background-repeat: no-repeat;
+ }
