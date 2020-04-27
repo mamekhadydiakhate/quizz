@@ -1,0 +1,353 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.header
+{
+    background-color: #042425;
+    height: 70px;
+
+}
+.logo
+{
+    background-image: url(icone/logo-QuizzSA.png);
+    background-repeat: no-repeat;
+    background-size: 40px;
+    height: 70px;
+
+}
+.quizz
+{
+    border: 1px solid turquoise;
+    width: 70%;
+    height: 80%;
+    margin: 10px;
+    float: left;
+}
+.suivant input{
+    float: right;
+    margin-top: 250px;
+    margin-right: 20px;
+    background-color: turquoise;
+    width: 100px;
+    height: 30px;
+    color: white;
+}
+.scor
+{
+    background-color: whitesmoke;
+    width: 25%;
+    height: 80%;
+    margin-top: 10px;
+    margin-right: 10px;
+    float: right;
+}
+.result input
+{
+    width: 90%;
+    height: 20%;
+    margin-left: 50px;
+    margin-top: 10px;
+
+}
+.precedent input
+{
+    float: left;
+    margin-top: 250px;
+    margin-left: 20px;
+    background-color:grey;
+    width: 100px;
+    height: 30px;
+    color: white;
+}
+.texte-header
+{
+    color: white;
+    margin-top: -75px;
+    margin-left: 500px;
+}
+.content
+{
+    background-image: url(icone/img-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 775px;
+}
+.container
+{
+    width: 35%;
+    height: 300px;
+    background-color: white;
+    margin-top: -30%;
+    margin-left: 30%;
+}
+.container-header
+{
+    background-color: #51bfd0;
+    height: 60px;
+}
+.titre
+{
+    color: white;
+    padding: 1px;
+    font-size: 17px;
+    margin-left: 30%;
+
+    
+}
+.form-control
+{
+    width: 80%;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid grey;
+    margin-left: 10%;
+    margin-top: 15px;
+}
+.input-form
+{
+    height: 60px;
+    margin: 5px 25px;
+}
+.error-form
+{
+    color: red;
+    width: 100%;
+    font-size: 15px;
+    font-weight: bold;
+}
+.icon-form
+{
+    
+    height: 35px;
+    width: 30px;
+    left: 80%;
+    background-size: 25px;
+    top: 50px;
+    position: relative;
+
+
+}
+.icon-form-login
+{
+    background-image: url(icone/icone-user.png);
+    background-repeat: no-repeat;
+    margin-top: 10px;
+}
+.icon-form-pwd
+{
+    background-image: url(icone/icone-password.png);
+    background-repeat: no-repeat;
+}
+.plan
+{
+    width: 95%;
+    height: 500px;
+    background-color: #efe7ea;
+    top: 5%;
+    left: 2.5%;
+    position: relative;
+
+}
+.plan-header
+{
+    background-color: #51bfd0;
+    height: 70px;
+}
+.deconnexion
+{
+    margin-top: -50px;
+    float: right;
+    margin-right: 15px;
+}
+.deconnexion input{
+    background-color: #3addd6;
+    color: white;
+    height: 40px;
+    width: 130px;
+}
+.menu1
+ {
+    background-color: white;
+    height: 300px;
+    width: 30%;
+    margin-top: 50px;
+    margin-left: 10px;
+ }
+ .menu1-header
+ {
+     background-color:#3addd6 ;
+     height:120px ;
+ }
+ .icon1
+ {
+     background-image: url(icone/img5.jpg);
+     height: 120px;
+     background-repeat: no-repeat;
+     background-size: 95px;
+     margin-left: 10%;
+
+
+ }
+ h3
+ {
+    color: white;
+    margin-left: 120px;
+ }
+ .menu21
+ {
+     background-color:white;
+     height: 400px;
+     margin-right: 10px;
+     margin-top: 10px;
+     width: 50%;
+     float: right;
+ }
+ .menu2
+ {
+    background-color: white;
+    height: 400px;
+    width: 60%;
+    margin-top: -330px;
+    margin-right: 100px;
+    float: right;
+ }
+ .suiv{
+    float: right;
+    margin-top: 370px;
+    margin-right: 50px;
+    background-color: #3addd6;
+    color: white;
+ }
+ h4
+ {
+    color: #818181;
+    margin-left: 10px;
+ }
+ .joueurs
+ {
+    width: 20%;
+    height: 320px;
+    border: 1px solid #3addd6;
+    margin: 25px;
+ }
+ .prenom
+ {
+     float: left;
+ }
+ .nom
+ {
+     float: left;
+     margin-left: 200px;
+ }
+ h3{
+     color: black;
+ }
+ .score
+ {
+    float: left;
+    margin-left: 200px;
+ }
+ .menu2-input
+ {
+     margin-left: 20px;
+ }
+ .img{
+     float:right;
+ }
+ .admi-prenom
+ {
+     background-image: url(icone/img5.jpg);
+     background-repeat: no-repeat;
+ }
+ .inscription{
+     width: 100%;
+ }
+ .inscription input
+ {
+    width: 70%;
+    height: 50px;
+    border: 1px solid grey;
+
+ }
+ p
+ {
+     margin-left: 10px;
+ }
+ .choisir input
+ {
+    float: right;
+    margin-right: 30%;
+    margin-top: 20px;
+    background-color: #51bfd0;
+    width: 20%;
+    height: 30px;
+    color: white;
+ }
+ .compte input
+ {
+    margin-top: 50px;
+    margin-left: 100px;
+    background-color: #51bfd0;
+    width: 20%;
+    height: 30px;
+    color: white;
+ }
+ h3
+ {
+     float: left;
+     margin-left: 10px;
+     margin-top: 0px;
+ }
+#inscription
+{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+}
+#inscription form
+{
+    width: 70%;
+    padding: 1rem;
+}
+hr{
+    width: 90%;
+    margin: 0px;
+}
+#inscription > div{
+    width:30%;
+
+}
+#avatar
+{
+    width: 10em;
+    height: 10em;
+    min-width: 15rem;
+    min-height: 15rem;
+    border-radius: 100%;
+    border: solid 4px turquoise;
+    margin: 0 auto;
+}
+.avatar1 img
+{
+    min-width: 4rem;
+    min-height: 4rem;
+    border-radius: 100%;
+    border: solid 1px turquoise;
+    margin-left: -250px;
+}
+.avatar h3
+{
+    float-right
+}
+.valider a
+{
+    float: left;
+    margin:20px;
+}
+.titre h3
+{
+    margin-left: -10px;
+}

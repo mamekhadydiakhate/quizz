@@ -1,0 +1,50 @@
+[
+    {
+        "prenom": "mame khady",
+        "nom": "diakhate",
+        "login": "ddiatou1@gmail.com",
+        "password": "diarra12",
+        "avatar": "avatar",
+        "profil": "admin"
+    },
+    {
+        "prenom": "fatou",
+        "nom": "sylla",
+        "login": "mamekhadydiakhate@gmail.com",
+        "password": "fatou12",
+        "avatar": "avatar",
+        "profil": "admin"
+    },
+    {
+        "prenom": "Khady",
+        "nom": "DIAKHATE",
+        "login": "ddiatou1@gmail.com",
+        "password": "121",
+        "avatar": "ddiatou1@gmail.com.jpeg",
+        "profil": "admin"
+    },
+    {
+        "prenom": "Amath",
+        "nom": "Biteye",
+        "login": "biteye",
+        "password": "chat",
+        "avatar": "biteye.png",
+        "profil": "admin"
+    },
+    {
+        "prenom": "Khady",
+        "nom": "DIAKHATE",
+        "login": "mouy",
+        "password": "123",
+        "avatar": "mouy.png",
+        "profil": "joueur"
+    },
+    {
+        "prenom": "Binetou",
+        "nom": "DIAKHATE",
+        "login": "bidia",
+        "password": "1234",
+        "avatar": "bidia.jpeg",
+        "profil": "joueur"
+    }
+]
