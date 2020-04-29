@@ -1,3 +1,25 @@
+    <?php
+    require_once('fonctions.php');
+    if(!isset($_SESSION['joueur'])){
+        header('location:connexion.php');
+    }else{
+        $joueurConnecte = $_SESSION['joueur'];
+    }
+    $utilisateurs = recupJson('utilisateur');
+    $joueurs = $scores = [];
+    foreach($utilisateurs as $cle => $valeur){
+        if($valeur['profil']=='joueur')
+        {
+            $joueurs[] = $valeur;
+            $scores[] = $valeur['score'];
+        }
+    }
+    arsort($scores);
+    if(isset($_POST['deconnexion']))
+        {
+            header('location:connexion.php');
+        }
+?>
 <link rel="stylesheet" href="projet.css">
 <div class="plan">
     <div class="plan-header">
@@ -27,7 +49,39 @@
                 </div>
                 </div>
                 <div class="scor">
-         
+                    <nav>
+                        <a href="niveau.php?top">Top Score</a>
+                        <a href="niveau.php?myscore">Mon meilleur score</a>
+                    </nav>
+                    <div id="">
+                        <table>
+                        <?php
+                        if(isset($_GET['top']))
+                        {
+                            $n=0;
+                            foreach($scores as $cle => $score){
+                            ?>
+                            <tr>
+                                <th><?= $joueurs[$cle]['prenom'].' '.$joueurs[$cle]['nom'] ?></th>
+                                <td><?= $score ?> pts</td>
+                            </tr>
+                            <?php
+                            $n++;
+                            if($n==5){
+                            break;
+                            }
+                            }
+                        }else{
+                            ?>
+                            <tr>
+                                <th><?= $joueurConnecte['prenom'].' '.$joueurConnecte['nom'] ?></th>
+                                <td><?= $joueurConnecte['score'] ?> pts</td>
+                            </tr>
+                            <?php
+                        }
+                        ?>
+                        </table>
+                    </div>
                 </div>
      </div>
     
