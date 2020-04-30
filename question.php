@@ -65,6 +65,23 @@
 	b.addEventListener("click",function(){
 			NvelleReponse()
 	});
+
+    	/*
+	--------------------------------------------------------------------------
+	Fonctions de generation de champs.
+	--------------------------------------------------------------------------
+	____________Inventaire des variables____________________
+
+	=====   x est le type de question selectionne
+	=====   valeur est le type de reponse
+	=====   r est l'ensemble des elements d'une reponse
+	=====   z est le label ou le nom de la reponse correspondante
+	=====   y est le champ de texte de la reponse
+	=====   retour permet de retour a la ligne 
+	=====   error correspond aux messages d'erreur 
+	=====   nb_reponse est le nombre de champ de reponse genere
+	++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+	*/
     function NvelleReponse(){
 		var x = document.getElementById('type').value;
 		if (x==""){
@@ -72,14 +89,68 @@
 		}
 		else{
 			increment();
-            var r = document.createElement('span');
-            var y = document.createElement("INPUT");
+            var valeur = document.createElement("input");
+			valeur.setAttribute("class","type_reponse");
+			switch(x) {
+				case "choix_simple":
+				    valeur.setAttribute("type","radio");
+				    valeur.setAttribute("name","radio");
+				    break;
+				case "reponse_texte":
+				    valeur.setAttribute("type","radio");
+				    valeur.setAttribute("name","radio");
+				    valeur.setAttribute("checked","");
+				    break;
+				default:
+				    valeur.setAttribute("type","checkbox");
+				    valeur.setAttribute("name","check_list[]");
+			}
+			valeur.setAttribute("value", "reponse" + i);
+            var r = document.createElement('span');//contenu ligne
+            r.setAttribute("id", "id_" + i);
+            var z = document.createElement('label');//titre
+            z.setAttribute("for","reponse" + i);
+			z.textContent="Reponse "+i+" ";
+            var y = document.createElement("INPUT");//champ
             y.setAttribute("type", "text");
+            y.setAttribute("name", "reponse" + i);
+            var g = document.createElement("IMG");//bouton de suppression
+			g.setAttribute("src", "./icone/ic-supprimer.png");
+            g.setAttribute("onclick", "removeElement('reponse','id_" + i + "')");
+            r.appendChild(z);
             r.appendChild(y);
+            r.appendChild(valeur);
+            if (x!='reponse_texte') {//pour ne pas pouvoir supprimer une reponse type texte
+				r.appendChild(g);
+			}
             r.innerHTML+="<br/>";
+            if (x=='reponse_texte' && i>1) {
+				return false;
+			}
             reponse.appendChild(r);
         }
     }
+
+    /*
+	---------------------------------------------
+	Foncion de suppression de reponse
+	---------------------------------------------
+
+	*/
+	function removeElement(parentDiv, childDiv){
+		if (childDiv == parentDiv){
+			alert("Le parent ne peut pas etre supprime.");
+		}
+		else if (document.getElementById(childDiv)){
+			var child = document.getElementById(childDiv);
+			var parent = document.getElementById(parentDiv);
+			parent.removeChild(child);
+		}
+		else{
+			alert("ce div n'existe pas ou a ete supprime.");
+			return false;
+		}
+	}
 
 </script>
 
