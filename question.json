@@ -1,0 +1,78 @@
+[
+    {
+        "question": "Lesquels sont des langages web?",
+        "point": "10",
+        "type": "choix_multiple",
+        "reponses": [
+            "Javascript",
+            "Html",
+            "Java"
+        ],
+        "reponsesVraies": [
+            "Javascript",
+            "Html"
+        ]
+    },
+    {
+        "question": "D\u2019o\u00f9 vient le Corona",
+        "point": "3",
+        "type": "choix_simple",
+        "reponses": [
+            "Italie",
+            "Chine"
+        ],
+        "reponsesVraies": [
+            "Chine"
+        ]
+    },
+    {
+        "question": "Quel est la femelle du mouton ?",
+        "point": "4",
+        "type": "choix_simple",
+        "reponses": [
+            "vache",
+            "brebis",
+            "lapine"
+        ],
+        "reponsesVraies": [
+            "brebis"
+        ]
+    },
+    {
+        "question": "qui est le Pr\u00e9sident de la R\u00e9publique du S\u00e9n\u00e9gal",
+        "point": "2",
+        "type": "reponse_texte",
+        "reponses": [
+            "Macky Sall"
+        ],
+        "reponsesVraies": [
+            "Macky Sall"
+        ]
+    },
+    {
+        "question": " Quelle est la premi\u00e8re \u00e9cole de codage gratuite au S\u00e9n\u00e9gal",
+        "point": "4",
+        "type": "choix_simple",
+        "reponses": [
+            "Simplon",
+            "Orange Digital Cente"
+        ],
+        "reponsesVraies": [
+            "Orange Digital Cente"
+        ]
+    },
+    {
+        "question": "comment combattre le coronavirus",
+        "point": "2",
+        "type": "choix_multiple",
+        "reponses": [
+            "restez chez soi",
+            "se laver les mains",
+            "dormir"
+        ],
+        "reponsesVraies": [
+            "restez chez soi",
+            "se laver les mains"
+        ]
+    }
+]
